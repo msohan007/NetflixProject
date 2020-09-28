@@ -1,0 +1,270 @@
+/*-------------------------------------Login Page------------------------------*/
+
+#loginBody {
+    width: auto;
+    height: auto;
+    background-color: wheat;
+}
+
+fieldset {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20191116/pngtree-film-film-texture-background-image_322200.jpg");
+    width: 20%;
+    padding: 5%;
+    margin: 10% auto auto auto;
+    color: white;
+    border: yellow solid 3px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#sp1{
+    text-align: center;
+    font-size: medium;
+    color: yellow;
+}
+
+/*----------------------------------Netflix Page----------------------------------*/
+
+body {
+    width: 95%;
+    height: 1000px;
+    background-color: rgb(214, 216, 207);
+    margin: 0% auto 0% auto;
+    padding: 0%;
+    font-size: 16px;
+}
+
+header {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20191116/pngtree-film-film-texture-background-image_322200.jpg");
+    width: 100%;
+    height: 15%;
+    margin: 0%;
+    padding: 0%;
+}
+
+header img {
+    width: 20%;
+    height: 70%;
+    margin: 1.7% auto auto 3%;
+    padding: 0%;
+    float: left;
+    border: rgb(234, 237, 240) solid 2px;
+}
+
+header h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0%;
+    margin: 5% auto auto 10%;
+    float: left;
+    color: white;
+}
+
+/*---------------------------------Language-------------------------------------*/
+
+a {
+    font-weight: bold;
+}
+
+div#languageType ul {
+    list-style-type: none;
+    padding: 0%;
+    margin-top: 2%;
+    margin-right: 3%;
+    float: right;
+}
+
+div#languageType li {
+    float: left;
+    margin-left: 5px;
+}
+
+div#languageType li a {
+    background-color: rgb(202, 199, 10);
+    display: block;
+    color: rgb(219, 45, 2);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+    padding: 10px;
+}
+
+/*------------------------------------------Menu bar----------------------------*/
+
+nav#a ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 38%;
+    overflow: hidden;
+    background-color: rgb(201, 30, 30);
+}
+
+nav#a li {
+    float: left;
+}
+
+nav#a li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav#a li a:hover {
+    background-color: #111;
+}
+
+/*------------------------------------Movie Categories----------------------------------*/
+
+nav#b {
+    background-color: cadetblue;
+    width: 100%;
+    height: 5%;
+}
+
+div#movieCategories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 0%;
+}
+
+div#movieCategories li {
+    float: left;
+    margin: 0%;
+    padding: 0%;
+}
+
+div#movieCategories li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 7%;
+    margin-left: 0%;
+    text-decoration: none;
+}
+
+div#movieCategories li a:hover {
+    background-color: rgb(176, 177, 131);
+}
+
+/*----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------*/
+
+aside {
+    background-color: rgb(183, 202, 202);
+    width: 30%;
+    height: 70%;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+}
+
+aside figure {
+    width: 40%;
+    height: 30%;
+    float: left;
+    margin: 3% auto 0% 7%;
+    padding: 0%;
+    float: left;
+    display: block;
+}
+
+aside figure figcaption {
+    width: 100%;
+    height: 10%;
+    margin-top: -3%;
+    padding: 0%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+aside figure button {
+    width: 50%;
+    height: 10%;
+    float: left;
+    color: rgb(27, 163, 107);
+    background-color: brown;
+}
+
+aside figure button.deleteButton {
+    width: 100%;
+    height: 10%;
+}
+
+#restButton {
+    background-color: rgb(27, 163, 107);
+    color: saddlebrown;
+    width: 40%;
+    height: 4%;
+    margin-left: 30%;
+    border-radius: 40%;
+}
+
+aside figure.actionMovies img {
+    width: 100%;
+    height: 70%;
+    margin: 0em;
+    padding: 0em;
+}
+
+article {
+    background-color: rgb(189, 177, 197);
+    width: 69.92%;
+    height: 70%;
+    margin: 0%;
+    padding: 0%;
+    float: right;
+}
+
+iframe#screen {
+    width: 95%;
+    height: 90%;
+    border-radius: 10px;
+    border: black solid 2px;
+    margin: 2%;
+    padding: 0%;
+}
+article#des1{
+    width: 100%;
+    height: 30%;
+    padding: 0%;
+    margin: 0%;
+    background-color:grey;
+}
+
+#desH3{
+    color: yellow;
+    text-align: center;
+    font-weight:bold;
+}
+
+iframe#description {
+    background-color: rgb(216, 214, 196);
+    width: 100%;
+    height: 80%;
+    padding: 0%;
+    /*margin: 0% 3% -1% auto;*/
+    border:rgb(216, 214, 196) 1px;
+}
+
+
+
+footer {
+    background-color: gray;
+    width: 100%;
+    height: 7%;
+    clear: both;
+    text-align: center;
+    margin: 0% auto 0% auto;
+    padding: 0%;
+}
+
+footer p {
+    padding-top: 2%;
+    margin: 0%;
+}

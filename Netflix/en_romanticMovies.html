@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="driver.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Entertainment World</title>
+</head>
+
+<body>
+    <nav id="a">
+        <ul>
+            <li><a href="en_index.html">Home</a></li>
+            <li><a href="en_news.html">News</a></li>
+            <li><a href="en_contact.html">Contact</a></li>
+            <li><a href="en_about.html">About</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="https://i.ytimg.com/vi/MqAoUYk2YzA/maxresdefault.jpg" alt="logo">
+        <h1>ENTERTAINMENT WORLD</h1>
+        <div id="languageType">
+            <ul>
+                <li><a href="en_romanticMovies.html">English </a></li>
+                <li><a href="fr_romanticMovies.html">French</a></li>
+            </ul>
+        </div>
+
+    </header>
+    
+    <nav id="b">
+        <!--Select Catgory-->
+        <div id="movieCategories">
+            <ul>
+                <li><a href="en_actionMovies.html">Action Movies</a></li>
+                <li><a href="en_romanticMovies.html">Romatic Movies</a></li>
+                <li><a href="en_horrorMovies.html">Horror Movies</a></li>
+                <li><a href="en_kidsMovies.html">Kids Movie Zone</a></li>
+            </ul>
+        </div>
+     
+      
+
+    </nav>
+    <aside id="asideId">
+        <!--*************************Romantic Movies***************************-->
+        <figure id="fig_notebook" class=actionMovies>            
+            <img id="img_notebook"  src="https://i.pinimg.com/originals/89/78/32/8978325ec2254f1bafe694cbe6ab7dab.jpg" 
+            onclick="document.getElementById('screen').src = 'https://www.youtube.com/embed/FC6biTjEyZw?autoplay=1';
+            document.getElementById('description').src='https://en.wikipedia.org/wiki/The_Notebook'";>
+            <figcaption>Notebook</figcaption>
+            <button onclick="document.getElementById('img_notebook').style.visibility = 'hidden'";>Hide</button>
+            <button onclick="document.getElementById('img_notebook').style.visibility = 'visible'";>Unhide</button>
+            <button class="deleteButton" onclick="document.getElementById('fig_notebook').style.display = 'none'";>Remove</button> 
+        </figure>
+        <figure id="fig_whms"class=actionMovies>            
+            <img id="img_whms" src="https://i5.walmartimages.com/asr/eaa8b6b9-7fe0-4572-9d15-9632237ea801_1.d3d6053a23a127b33b9a78693cea9d2c.jpeg" 
+            onclick="document.getElementById('screen').src = 'https://www.youtube.com/embed/vmSpCLefjnw?autoplay=1';
+            document.getElementById('description').src='https://en.wikipedia.org/wiki/When_Harry_Met_Sally...'";>
+            <figcaption>Harry Met Shally</figcaption>            
+            <button onclick="document.getElementById('img_whms').style.visibility = 'hidden'";>Hide</button>
+            <button onclick="document.getElementById('img_whms').style.visibility = 'visible'";>Unhide</button>
+            <button class="deleteButton" onclick="document.getElementById('fig_whms').style.display = 'none'";>Remove</button> 
+        </figure>
+        <figure id="fig_mby" class=actionMovies>            
+            <img id="img_mby" src="https://m.media-amazon.com/images/M/MV5BMTQ2NjE4NDE2NV5BMl5BanBnXkFtZTgwOTcwNDE5NzE@._V1_UY1200_CR90,0,630,1200_AL_.jpg" 
+            onclick="document.getElementById('screen').src = 'https://www.youtube.com/embed/Eh993__rOxA?autoplay=1';
+            document.getElementById('description').src='https://en.wikipedia.org/wiki/Me_Before_You_(film)'";>
+            <figcaption>Me before you</figcaption>
+            <button onclick="document.getElementById('img_mby').style.visibility = 'hidden'";>Hide</button>
+            <button onclick="document.getElementById('img_mby').style.visibility = 'visible'";>Unhide</button>
+            <button class="deleteButton" onclick="document.getElementById('fig_mby').style.display = 'none'";>Remove</button> 
+        </figure>
+        <figure id="fig_titanic" class=actionMovies>            
+            <img id="img_titanic" src="https://c8.alamy.com/comp/T0JG1G/leonardo-dicapriokate-winslet-poster-titanic-1997-T0JG1G.jpg" 
+            onclick="document.getElementById('screen').src = 'https://www.youtube.com/embed/2e-eXJ6HgkQ?autoplay=1';
+            document.getElementById('description').src='https://en.wikipedia.org/wiki/Titanic_(1997_film)'";>
+            <figcaption>Titanic</figcaption>
+            <button onclick="document.getElementById('img_titanic').style.visibility = 'hidden'";>Hide</button>
+            <button onclick="document.getElementById('img_titanic').style.visibility = 'visible'";>Unhide</button>
+            <button class="deleteButton" onclick="document.getElementById('fig_titanic').style.display = 'none'";>Remove</button> 
+        </figure>
+        <figure id="fig_nothingHill" class=actionMovies>            
+            <img id="img_nothingHill" src="https://tvguide1.cbsistatic.com/feed/1/348/thumbs/12541348_1118x1491.jpg" 
+            onclick="document.getElementById('screen').src = 'https://www.youtube.com/embed/4RI0QvaGoiI?autoplay=1';
+            document.getElementById('description').src='https://en.wikipedia.org/wiki/Notting_Hill_(film)'";>
+            <figcaption>Notting Hill</figcaption>
+            <button onclick="document.getElementById('img_nothingHill').style.visibility = 'hidden'";>Hide</button>
+            <button onclick="document.getElementById('img_nothingHill').style.visibility = 'visible'";>Unhide</button>
+            <button class="deleteButton" onclick="document.getElementById('fig_nothingHill').style.display = 'none'";>Remove</button> 
+        </figure>
+        <figure id="fig_beforeSunrise" class=actionMovies>           
+            <img id="img_beforeSunrise" src="https://image.tmdb.org/t/p/w342/jsQy4ZbPHA8hE2O6QU05PpofI61.jpg" 
+            onclick="document.getElementById('screen').src = 'https://www.youtube.com/embed/hQu_59Acr40?autoplay=1';
+            document.getElementById('description').src='https://en.wikipedia.org/wiki/Before_Sunrise'";>
+            <figcaption>Before Sunrise</figcaption>
+            <button onclick="document.getElementById('img_beforeSunrise').style.visibility = 'hidden'";>Hide</button>
+            <button onclick="document.getElementById('img_beforeSunrise').style.visibility = 'visible'";>Unhide</button>
+            <button class="deleteButton" onclick="document.getElementById('fig_beforeSunrise').style.display = 'none'";>Remove</button> 
+        </figure>
+        <button id="restButton" onclick="restoreRomanticMovies();">Restore</button>
+        
+    </aside>
+    
+
+    <article>
+        <iframe name="iFrame1" id="screen" src="https://www.youtube.com/embed/DUlbGPSPY3o?autoplay=1"></iframe>
+    </article>
+
+    <article id="des1">
+        <h3 id="desH3">~:Description:~</h3>
+        <iframe id="description" src="https://en.wikipedia.org/wiki/List_of_American_films_of_2020"></iframe>
+    </article>
+    <footer>
+        <p>&copy;Copywrite: Entertainment World</p>
+    </footer>
+</body>
+
+</html>

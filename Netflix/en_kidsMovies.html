@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="driver.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Entertainment World</title>
+</head>
+
+<body>
+    <!--Menu Window-->
+    <nav id="a">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="en_news.html">News</a></li>
+            <li><a href="en_contact.html">Contact</a></li>
+            <li><a href="en_about.html">About</a></li>
+        </ul>
+    </nav>
+    <!--Header Window-->
+    <header>
+        <img src="https://i.ytimg.com/vi/MqAoUYk2YzA/maxresdefault.jpg" alt="logo">
+        <h1>ENTERTAINMENT WORLD</h1>
+        <div id="languageType">
+            <ul>
+                <li><a href="en_kidsMovies.html">English </a></li>
+                <li><a href="fr_kidsMovies.html">French</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+
+    <!--Movie Category selection Window-->
+    <nav id="b">
+        <!--Select Catgory-->
+        <div id="movieCategories">
+            <ul>
+                <li><a href="en_actionMovies.html">Action Movies</a></li>
+                <li><a href="en_romanticMovies.html">Romatic Movies</a></li>
+                <li><a href="en_horrorMovies.html">Horror Movies</a></li>
+                <li><a href="en_kidsMovies.html">Kids Movie Zone</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--SideBar for the list of Movies-->
+    <aside id="asideId">
+        <!--*************************Kids Movies***************************-->
+        <figure id="fig_theIncredibles" class=actionMovies>
+            <img id="img_theIncredibles"
+                src="https://vignette.wikia.nocookie.net/kerasotes/images/7/7d/Winnie_the_Pooh_Meets_The_Incredibles_poster_%28Version_2%29_by_BrianDuBose.jpg/revision/latest?cb=20120812234040"
+                onclick="document.getElementById('screen').src='https://www.youtube.com/embed/-UaGUdNJdRQ?autoplay=1';
+                document.getElementById('description').src='https://en.wikipedia.org/wiki/The_Incredibles'">
+            <figcaption>The Incredibles</figcaption>
+            <button onclick="document.getElementById('img_theIncredibles').style.visibility='hidden';">Hide</button>
+            <button onclick="document.getElementById('img_theIncredibles').style.visibility='visible';">Unhide</button>
+            <button class="deleteButton"
+                onclick="document.getElementById('fig_theIncredibles').style.display='none';">Remove</button>
+        </figure>
+        <figure id="fig_toyStory" class=actionMovies>
+            <img id="img_toyStory" src="https://images-na.ssl-images-amazon.com/images/I/514IG81HAhL._AC_.jpg" onclick="document.getElementById('screen').src='https://www.youtube.com/embed/rNk1Wi8SvNc?autoplay=1';
+                document.getElementById('description').src='https://en.wikipedia.org/wiki/Toy_Story'">
+            <figcaption>Toy Story</figcaption>
+            <button onclick="document.getElementById('img_toyStory').style.visibility='hidden';">Hide</button>
+            <button onclick="document.getElementById('img_toyStory').style.visibility='visible';">Unhide</button>
+            <button class="deleteButton"
+                onclick="document.getElementById('fig_toyStory').style.display='none';">Remove</button>
+        </figure>
+        <figure id="fig_iniseOut" class=actionMovies>
+            <img id="img_iniseOut" src="https://i.pinimg.com/originals/c5/52/00/c55200965bf288b294b6252b9fecf0bc.jpg"
+                onclick="document.getElementById('screen').src='https://www.youtube.com/embed/seMwpP0yeu4?autoplay=1';
+                document.getElementById('description').src='https://en.wikipedia.org/wiki/Inside_Out_(2015_film)'">
+            <figcaption>Inside Out</figcaption>
+            <button onclick="document.getElementById('img_iniseOut').style.visibility='hidden';">Hide</button>
+            <button onclick="document.getElementById('img_iniseOut').style.visibility='visible';">Unhide</button>
+            <button class="deleteButton"
+                onclick="document.getElementById('fig_iniseOut').style.display='none';">Remove</button>
+        </figure>
+        <figure id="fig_wall-e" class=actionMovies>
+            <img id="img_wall-e"
+                src="https://www.arthipo.com/image/cache/catalog/genel-tasarim/all-posters/sinema-cinema-film-postersleri/yabanci-filmler/1/pfilm1429-wall-e-poster-film-movie-posters-cinema-kanvas-tablo-canvas-1000x1000.jpg"
+                onclick="document.getElementById('screen').src='https://www.youtube.com/embed/qGBZWbg_26A?autoplay=1';
+                document.getElementById('description').src='https://en.wikipedia.org/wiki/WALL-E'">
+            <figcaption>Wall-e</figcaption>
+            <button onclick="document.getElementById('img_wall-e').style.visibility='hidden';">Hide</button>
+            <button onclick="document.getElementById('img_wall-e').style.visibility='visible';">Unhide</button>
+            <button class="deleteButton"
+                onclick="document.getElementById('fig_wall-e').style.display='none';">Remove</button>
+
+        </figure>
+        <figure id="fig_tangled" class=actionMovies>
+            <img id="img_tangled" src="https://i.pinimg.com/originals/7c/89/a1/7c89a161117a74c5d3167f36e433a977.jpg"
+                onclick="document.getElementById('screen').src='https://www.youtube.com/embed/2f516ZLyC6U?autoplay=1';
+                document.getElementById('description').src='https://en.wikipedia.org/wiki/Tangled'">
+            <figcaption>Tangled</figcaption>
+            <button onclick="document.getElementById('img_tangled').style.visibility='hidden';">Hide</button>
+            <button onclick="document.getElementById('img_tangled').style.visibility='visible';">Unhide</button>
+            <button class="deleteButton"
+                onclick="document.getElementById('fig_tangled').style.display='none';">Remove</button>
+        </figure>
+        <figure id="fig_theLionKing" class=actionMovies>
+            <img id="img_theLionKing"
+                src="https://mypostercollection.com/wp-content/uploads/2018/08/The-Lion-King-Poster-1994-MyPosterCollection.com-1.jpg"
+                onclick="document.getElementById('screen').src='https://www.youtube.com/embed/7TavVZMewpY?autoplay=1';
+                document.getElementById('description').src='https://en.wikipedia.org/wiki/The_Lion_King'">
+            <figcaption>The Lion king</figcaption>
+            <button onclick="document.getElementById('img_theLionKing').style.visibility='hidden';">Hide</button>
+            <button onclick="document.getElementById('img_theLionKing').style.visibility='visible'">Unhide</button>
+            <button class="deleteButton"
+                onclick="document.getElementById('fig_theLionKing').style.display='none';">Remove</button>
+        </figure>
+        <button id="restButton" onclick="restoreKidsMovies();">Restore</button>
+
+    </aside>
+
+    <!--windows for the video screen-->
+    <article>
+        <iframe name="iFrame1" id="screen" src="https://www.youtube.com/embed/DUlbGPSPY3o?autoplay=1"></iframe>
+    </article>
+
+    <article id="des1">
+        <h3 id="desH3">~:Description:~</h3>
+        <iframe id="description" src="https://en.wikipedia.org/wiki/List_of_American_films_of_2020"></iframe>
+    </article>
+
+    <footer>
+        <p>&copy;Copywrite: Entertainment World</p>
+    </footer>
+</body>
+
+</html>
